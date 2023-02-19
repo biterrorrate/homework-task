@@ -1,0 +1,37 @@
+*{
+    user-select: none;
+}
+
+body {
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    border: 3px solid pink;
+    text-align: center;
+    width: 500px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+a {
+    display: block;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 30px;
+    font-family: Sourse code pro ;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: hotpink;
+}
+
